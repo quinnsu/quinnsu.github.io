@@ -4,6 +4,25 @@
   
   
   <entry>
+    <title>Test</title>
+    <link href="/2022/10/22/test/"/>
+    <url>/2022/10/22/test/</url>
+    
+    <content type="html"><![CDATA[<script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+    
+    
+    <categories>
+      
+      <category>Programing</category>
+      
+    </categories>
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>KMP</title>
     <link href="/2022/03/16/vue-xue-xi-bi-ji-fu-ben/"/>
     <url>/2022/03/16/vue-xue-xi-bi-ji-fu-ben/</url>
